@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"href="assets/normalize.css">
+    <link rel="stylesheet"href="assets/fontawsome/css/all.css">
+    <style>
+       /* body>header{
+            width:100vw;
+            height:100px ;
+            background: white;
+            position:relative;
+            border: 2px solid black;
+        }
+        body>header>img{
+            width: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body>main{
+            position: relative;
+            width: 15vw;
+            height: 600px;
+            background:purple;
+        }
+        body>main>div{
+            width: 20vw;
+            height: 50px;
+            border: 2px solid black;
+        }*/
+       header{
+           background: white;
+           box-shadow: 1px 2px 3px 2px black;
+           position: relative;
+       }
+       header>img{
+           width: 200px;
+           margin: 20px;
+       }
+       header>nav>ul{
+           position: absolute;
+           top: 20px;
+           right: 50px;
+       }
+
+       header>nav>ul>li{
+           display: inline-block;
+           margin: 10px;
+       }
+       header>nav>ul>li>i{
+         color: lightseagreen;
+           font-size: 20px;
+           margin-right: 5px;
+       }
+       header>nav>ul>li>a{
+           text-decoration: none;
+           color: lightseagreen;
+           font-size: 20px;
+           font-weight: bold;
+       }
+        main{
+            position: relative;
+        }
+        body>main>nav{
+            position: absolute;
+            background: purple;
+            width:300px ;
+            color:white;
+            top:0;
+            bottom:0;
+        }
+        /*create a home buttons places*/
+       body>main>nav>ul{
+           /*remove mark*/
+           list-style-type: none;
+       }
+        body>main>nav>ul>li>i{
+            color: white;
+            margin-right: 10px;
+            margin-top: 30px;
+        }
+       body>main>nav>ul>li>a{
+           text-decoration: none;
+           color: white;
+           margin-top: 30px;
+           font-weight: bold;
+           font-size: 18px;
+       }
+        footer>p{
+            color:white;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 0;
+        }
+        footer{
+            background: gray;
+            height: 60px;
+        }
+        body>main>section{
+            margin-left: 300px;
+            padding: 10px;
+        }
+        /*create new square*/
+        body>main>section>section{
+            border: 1px solid red;
+            height: 300px;
+            position: relative;
+        }
+        body>main>section>section>div{
+            border: 2px solid red;
+            height: 100%;
+            width: calc(100%/3);
+            position: absolute;
+        }
+        body>main>section>section>div:first-child{
+            left: 0;
+        }
+       body>main>section>section>div:nth-child(2){
+           left: 0;
+           right: 0;
+           margin: auto;
+       }
+       body>main>section>section>div:nth-child(3){
+
+           right: 0;
+           
+       }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <img src="assets/img/ijse.png"alt="logo">
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i><a href="#">home</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#">services</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="#">contact</a></li>
+            <li><i class="fa-sharp fa-solid fa-address-card"></i><a href="#">aboutus</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i><a href="#">home</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#">services</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="#">contact</a></li>
+            <li><i class="fa-sharp fa-solid fa-address-card"></i><a href="#">aboutus</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section>
+        <section>
+            <div>
+                <img src="assets/img/funny.gif">
+            </div>
+            <div>
+                <img src="assets/img/funny.gif">
+            </div>
+            <div>
+                <img src="assets/img/funny.gif">
+            </div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt esse laborum necessitatibus nobis
+            praesentium quae quis totam voluptatem! Culpa est laboriosam nobis sapiente voluptas? Cumque eum inventore
+            mollitia nihil.</p>
+        <p>Aperiam architecto assumenda aut consequatur dolor doloremque dolores doloribus ducimus, ea error, esse
+            eveniet inventore ipsam laborum magnam minima neque nulla obcaecati perferendis quae quasi recusandae
+            suscipit veniam vitae voluptatum.</p>
+        <p>Ab alias autem dicta, dignissimos esse et eum excepturi facilis fugit impedit ipsa molestiae mollitia nam
+            nihil obcaecati odit officia omnis placeat quas quisquam, reprehenderit temporibus veritatis? Commodi,
+            mollitia, voluptatem!</p>
+        <p>Ab alias aperiam aut dicta dignissimos dolorem eius est exercitationem facere facilis impedit in ipsa laborum
+            maxime modi, nemo nisi placeat provident quaerat quisquam repudiandae rerum voluptas voluptatem! Ad,
+            sapiente?</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+        <p>Doloribus obcaecati quas reiciendis totam. Accusamus autem eius ex excepturi harum ipsa iste iure laudantium
+            magnam minima molestiae nam necessitatibus optio quaerat quasi qui quibusdam ratione, recusandae tempore
+            tenetur voluptatem!</p>
+    </section>
+
+
+
+
+</main>
+<footer>
+    <p>Divelop by IJSE</p>
+</footer>
+</body>
+</html>
