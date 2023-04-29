@@ -13,14 +13,25 @@ header>nav>menu>li{
     display: inline-block;
     margin: 20px;
     position: relative;
-    left: 280px;
+    left: 540px;
+
 
 }
+
 main>section:nth-child(1)>aside>h1{
+    display: inline-block;
     color: white;
 
 }
 main>section:nth-child(1){
     height: 100vh;
     background: #111113;
+}
+main>section:nth-child(1){
+    height: 100vh;
+}
+main>section:nth-child(1)>img{
+    position: relative;
+    left: 900px;
+    bottom: 0;
 }
