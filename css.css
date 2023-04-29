@@ -20,7 +20,7 @@ main>section:nth-child(1)>aside>h1{
     color: white;
 
 }
-main>section{
+main>section:nth-child(1){
     height: 100vh;
     background: #111113;
 }
