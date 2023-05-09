@@ -18,7 +18,7 @@ header>nav>menu>li{
     display: inline-block;
     margin: 20px;
     position: relative;
-    left: 390px;
+    left:  267px;
 }
 main>:nth-child(1){
     position: relative;
@@ -350,14 +350,159 @@ main>:nth-child(4)>article>section>aside:nth-child(1)>div:nth-child(1){
     font-size: 38px;
 }*/
 
-main>:nth-child(4)>:nth-child(2)>h1:nth-child(1){
+main>section:nth-child(4)>section:nth-child(2)>h1:nth-child(2){
     position: relative;
     display: inline-block;
     color: red;
     top: 0;
     right: -134px;
-    font-size: 28px;
+    font-size: 18px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*           Achievement                  */
+
+
+main>section:nth-child(5){
+    position: relative;
+    background: rgba(17, 17, 20, 1);
+    top: -122px;
+}
+
+main>:nth-child(5)>h1{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    top: 14px;
+    left: 487px;
+}
+
+main>:nth-child(5)>article>img:nth-child(1){
+    position: relative;
+    top: 62px;
+    left: 205px;
+}
+
+main>:nth-child(5)>article>img:nth-child(2){
+    position: relative;
+    top: 12px;
+    left: 440px;
+}
+main>:nth-child(5)>article>img:nth-child(3){
+    position: relative;
+    top: 12px;
+    left: 440px;
+}
+
+
+
+
+
+
+
+
+
+
+/*               projects                    */
+
+main>:nth-child(6){
+    position: relative;
+    background: rgba(17, 17, 20, 1);
+    top: -154px;
+}
+main>:nth-child(6)>h1{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    top: 28px;
+    left: 462px;
+
+}
+main>:nth-child(6)>article>h3{
+    position: relative;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+/*               Assignments                    */
+
+main>:nth-child(7){
+    position: relative;
+    background: rgba(17, 17, 20, 1);
+    top:-172px;
+}
+main>:nth-child(7)>h1{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    top: 28px;
+    left: 462px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*       contact me                    */
+
+
+footer>section{
+    position: relative;
+    background: #111114;
+    top:0;
+}
+footer>:nth-child(8)>h1{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    top: 28px;
+    left: 462px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
