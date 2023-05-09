@@ -1,11 +1,16 @@
 header>nav>menu>li>a{
+
     color:#FF0000;
     text-decoration: none;
 
 }
-header{
-    background: #111111;
+main{
     position: relative;
+    top:-37px;
+}
+header{
+    position: relative;
+    background: #111111;
     height: 10vh;
 }
 
@@ -13,22 +18,30 @@ header>nav>menu>li{
     display: inline-block;
     margin: 20px;
     position: relative;
-    left: 540px;
-
-
+    left: 390px;
 }
-main>section:nth-child(1)>h1:first-child{
+main>:nth-child(1){
     position: relative;
     color: white;
     font-size: 30px;
-    bottom: -100px;
 }
 
-main>section:nth-child(1)>aside>h1{
+main>section>:nth-child(4)>h1{
+
+    position: relative;
     display: inline-block;
     color: white;
-
+    font-size: 30px;
+    bottom: 25px;
 }
+main>section>:nth-child(5)>h1{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    bottom: 25px;
+    left: -124px;
+}
+
 main>section:nth-child(1){
     height: 100vh;
     background: #111113;
@@ -38,14 +51,19 @@ main>section:nth-child(1){
 }
 main>section:nth-child(1)>img{
     position: relative;
-    left: 900px;
-    bottom: -215px;
+    left: 802px;
+    bottom: -133px;
+
+}
+#propic{
+    /* image up */
+    z-index: 5;
 }
 main>section:nth-child(1)>aside:nth-child(4){
     position: relative;
     display: inline-block;
     font-size: 26px;
-    bottom: -200px;
+    bottom:  -144px;
    right: 240px;
 }
 
@@ -53,6 +71,310 @@ main>section:nth-child(1)>aside:nth-child(5){
     position: relative;
     display: inline-block;
     font-size:  26px;
-    bottom: -200px;
+    bottom: -144px;
     left: 50px;
 }
+#star1{
+    position: absolute;
+    width: 500px;
+    height: 468px;
+    left: 690px;
+    top: 95px;
+
+
+}
+
+
+/*            AboutMe             */
+
+
+main>section:nth-child(2){
+    background: #111114;
+
+}
+main:nth-child(2)>h1>dfn{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 0;
+
+}
+main>:nth-child(2){
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: -37px;
+    right: 0;
+}
+#rectangle{
+
+    position: relative;
+    font-size: 30px;
+    background:rgba(50, 39, 39, 0.4);
+    border-radius: 48px;
+    width: 471px;
+    height: 525px;
+    left: 446px;
+    border-radius: 48px;
+    top: 175px;
+}
+#st{
+    position: relative;
+    right: -914px;
+    bottom: 22px;
+    border-radius: 30px;
+}
+#ss{
+    position: relative;
+    left: -154px;
+    top: -432px;
+    border-radius: 30px;
+}
+#flag{
+    position: relative;
+    left: 400px;
+    top: -704px;
+}
+
+
+          /*  Gallery  */
+
+
+
+main>section:nth-child(3){
+    background: rgba(17, 17, 20, 1);
+);
+
+}
+main>:nth-child(3){
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    top: -73px;
+}
+main:nth-child(3)>aside>div{
+    border: 1px solid black;
+     height: 300px;
+     width:  250px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+/*main>:nth-child(3)>img{
+   !* border: 1px solid black;
+   !* height: 600px;
+    width: 600px;*!
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);*!
+}*/
+
+main>section:nth-child(3)>aside>section{
+    display: flex;
+    justify-content: center;
+}
+
+
+main>section:nth-child(3)>aside>section>div{
+    height: 200px;
+    width: 200px;
+}
+
+main>section:nth-child(3)>aside>section:nth-child(1)>div:nth-child(1){
+    border: 1px solid black;
+    background: url("assest/img/1j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+
+}
+main>section:nth-child(3)>aside>section:nth-child(1)>div:nth-child(2){
+    border: 1px solid black;
+    background: url("assest/img/2j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(1)>div:nth-child(3){
+    border: 1px solid black;
+    background: url("assest/img/3j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(1)>div:nth-child(4){
+    border: 1px solid black;
+    background: url("assest/img/4j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(2)>div:nth-child(1){
+    border: 1px solid black;
+    background: url("assest/img/5j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(2)>div:nth-child(2){
+    border: 1px solid black;
+    background: url("assest/img/6j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(2)>div:nth-child(3){
+    border: 1px solid black;
+    background: url("assest/img/7j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(2)>div:nth-child(4){
+    border: 1px solid black;
+    background: url("assest/img/7j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(1){
+    border: 1px solid black;
+    background: url("assest/img/8j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(2){
+    border: 1px solid black;
+    background: url("assest/img/9j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(3){
+    border: 1px solid black;
+    background: url("assest/img/10j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(4){
+    border: 1px solid black;
+    background: url("assest/img/11j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}
+/*main>:nth-child(3)>img:nth-child(12){
+    border: 1px solid black;
+    background: url("assest/img/12j.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px #ff253a;
+
+}*/
+/*main>:nth-child(3)>aside>div:nth-child(13){*/
+/*    border: 1px solid black;*/
+/*    background: url("assest/img/13.jpeg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    box-shadow: 1px 2px 4px #ff253a;*/
+
+/*}*/
+
+
+
+
+
+            /*     Education  */
+
+
+main>section:nth-child(4){
+    background: rgba(17, 17, 20, 1);
+    position: relative;
+    top: -94px;
+}
+main>:nth-child(4)>h1:nth-child(1){
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 425px;
+    top: 16px;
+}
+main>:nth-child(4)>article>section>div:nth-child(1){
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background: rgba(116, 125, 140, 1);
+    transform: rotate(135deg);
+    top: -511px;
+    right: -256px;
+    z-index: 1;
+
+}
+
+main>:nth-child(4)>article>section>div:nth-child(2){
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background: rgba(164, 176, 190, 1);
+    top:  -610px;
+    right: -319px;
+}
+main>:nth-child(4)>article>section>aside:nth-child(1)>div:nth-child(1){
+    display: flex;
+    align-content: center;
+
+
+}
+
+/*main>:nth-child(4)>section>h1:nth-child(1){
+    position: relative;
+    display: inline-block;
+    color: white;
+    top: 0;
+    right: -134px;
+    font-size: 38px;
+}*/
+
+main>:nth-child(4)>:nth-child(2)>h1:nth-child(1){
+    position: relative;
+    display: inline-block;
+    color: red;
+    top: 0;
+    right: -134px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
