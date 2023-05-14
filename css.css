@@ -6,40 +6,47 @@ header>nav>menu>li>a{
 }
 main{
     position: relative;
-    top:-37px;
+    top:0;
 }
 header{
     position: relative;
     background: #111111;
     height: 10vh;
+    width: 98.5vw;
 }
 
 header>nav>menu>li{
     display: inline-block;
-    margin: 20px;
+    margin: 18px;
     position: relative;
-    left:  267px;
+    left:  154px;
 }
 main>:nth-child(1){
     position: relative;
-    color: white;
+    display: inline-block;
+    color: red;
     font-size: 30px;
+    font-family: "Arial Black";
 }
-
+/*  mewa  h1 tag gym bike ewa */
 main>section>:nth-child(4)>h1{
 
     position: relative;
     display: inline-block;
     color: white;
-    font-size: 30px;
-    bottom: 25px;
+    font-size: 20px;
+    bottom: 73px;
+    left: 5vw;
+
 }
-main>section>:nth-child(5)>h1{
+main>section>:nth-child(3)>h1{
     position: relative;
+    display: inline-block;
     color: white;
-    font-size: 30px;
-    bottom: 25px;
-    left: -124px;
+    font-size: 20px;
+    bottom: 116px;
+    left: 20px;
+    z-index: 1;
 }
 
 main>section:nth-child(1){
@@ -48,18 +55,19 @@ main>section:nth-child(1){
 }
 main>section:nth-child(1){
     height: 100vh;
+    width: 98.5vw;
 }
 main>section:nth-child(1)>img{
     position: relative;
-    left: 802px;
-    bottom: -133px;
+    left: 635px;
+    bottom: -58px;
 
 }
 #propic{
     /* image up */
     z-index: 5;
 }
-main>section:nth-child(1)>aside:nth-child(4){
+main>section:nth-child(1)>aside:nth-child(2){
     position: relative;
     display: inline-block;
     font-size: 26px;
@@ -67,21 +75,31 @@ main>section:nth-child(1)>aside:nth-child(4){
    right: 240px;
 }
 
-main>section:nth-child(1)>aside:nth-child(5){
+main>section:nth-child(1)>aside:nth-child(3){
     position: relative;
     display: inline-block;
     font-size:  26px;
     bottom: -144px;
     left: 50px;
 }
-#star1{
+/*#star1{
     position: absolute;
     width: 500px;
     height: 468px;
-    left: 690px;
-    top: 95px;
-
-
+    left: 697px;
+    top: 229px;
+}*/
+/*main>section:nth-child(1)>img:nth-child(4){
+    position: relative;
+    height: 50px;
+    width: 60px;
+    left: 0;
+    bottom: 0;
+}*/
+main>section:nth-child(1){
+    background: url("assest/img/hpm.png");
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -89,52 +107,100 @@ main>section:nth-child(1)>aside:nth-child(5){
 
 
 main>section:nth-child(2){
+    position: relative;
     background: #111114;
+    width: 98.5vw;
+    height: 163vh;
+    top: -38px;
 
 }
-main:nth-child(2)>h1>dfn{
+/*main:nth-child(2)>h1>dfn{
     position: relative;
+    display: inline-block;
     color: white;
     font-size: 30px;
     top: 0;
 
-}
-main>:nth-child(2){
+}*/
+main>:nth-child(2)>h1{
     position: relative;
+    display: inline-block;
     color: white;
-    font-size: 30px;
-    top: -37px;
-    right: 0;
+    font-size: 35px;
+    top: -7px;
+    left: 447px;
 }
 #rectangle{
 
     position: relative;
-    font-size: 30px;
+    display: inline-block;
+    font-size: 26px;
+    color: white;
     background:rgba(50, 39, 39, 0.4);
     border-radius: 48px;
-    width: 471px;
-    height: 525px;
-    left: 446px;
+    width: 271px;
+    height: 599px;
+    left: 303px;
     border-radius: 48px;
-    top: 175px;
+    top: 82px;
+}
+/*   p born in  */
+main>section:nth-child(2)>article>p:nth-child(1){
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    left: 574px;
+    top: -482px;
+}
+main>section:nth-child(2)>article>p:nth-child(2){
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    left: 592px;
+    top: -481px;
+}
+/*      email and contact  */
+
+main>section:nth-child(2)>article>p:nth-child(4){
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    left: -365px;
+    top: 172px;
+}
+main>section:nth-child(2)>article>p:nth-child(5){
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    left: -142px;
+    top: 172px;
 }
 #st{
     position: relative;
-    right: -914px;
-    bottom: 22px;
+    left: 744px;
+    bottom: 229px;
     border-radius: 30px;
 }
 #ss{
     position: relative;
-    left: -154px;
-    top: -432px;
+    right: 217px;
+    top: -629px;
     border-radius: 30px;
 }
 #flag{
     position: relative;
-    left: 400px;
-    top: -704px;
+    left: 183px;
+    top: -809px;
 }
+
+
+
+
+
 
 
           /*  Gallery  */
@@ -143,11 +209,15 @@ main>:nth-child(2){
 
 main>section:nth-child(3){
     background: rgba(17, 17, 20, 1);
+    top: -35px;
+    width: 100vw;
+    height: 100vh;
 );
 
 }
 main>:nth-child(3){
     position: relative;
+    display: inline-block;
     color: white;
     font-size: 30px;
     left: 0;
@@ -278,23 +348,6 @@ main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(4){
     box-shadow: 1px 2px 4px #ff253a;
 
 }
-/*main>:nth-child(3)>img:nth-child(12){
-    border: 1px solid black;
-    background: url("assest/img/12j.jpeg");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 1px 2px 4px #ff253a;
-
-}*/
-/*main>:nth-child(3)>aside>div:nth-child(13){*/
-/*    border: 1px solid black;*/
-/*    background: url("assest/img/13.jpeg");*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    box-shadow: 1px 2px 4px #ff253a;*/
-
-/*}*/
-
 
 
 
@@ -309,6 +362,7 @@ main>section:nth-child(4){
 }
 main>:nth-child(4)>h1:nth-child(1){
     position: relative;
+    display: inline-block;
     color: white;
     font-size: 30px;
     left: 425px;
@@ -341,15 +395,6 @@ main>:nth-child(4)>article>section>aside:nth-child(1)>div:nth-child(1){
 
 }
 
-/*main>:nth-child(4)>section>h1:nth-child(1){
-    position: relative;
-    display: inline-block;
-    color: white;
-    top: 0;
-    right: -134px;
-    font-size: 38px;
-}*/
-
 main>section:nth-child(4)>section:nth-child(2)>h1:nth-child(2){
     position: relative;
     display: inline-block;
@@ -381,10 +426,12 @@ main>section:nth-child(5){
     position: relative;
     background: rgba(17, 17, 20, 1);
     top: -122px;
+    height: 500px;
 }
 
 main>:nth-child(5)>h1{
     position: relative;
+    display: inline-block;
     font-size: 40px;
     color: white;
     top: 14px;
@@ -394,18 +441,18 @@ main>:nth-child(5)>h1{
 main>:nth-child(5)>article>img:nth-child(1){
     position: relative;
     top: 62px;
-    left: 205px;
+    left: 163px;
 }
 
 main>:nth-child(5)>article>img:nth-child(2){
     position: relative;
-    top: 12px;
-    left: 440px;
+    top: 160px;
+    left:  238px;
 }
-main>:nth-child(5)>article>img:nth-child(3){
+main>:nth-child(5)>article>:nth-child(3){
     position: relative;
-    top: 12px;
-    left: 440px;
+    top: 62px;
+    left: 361px;
 }
 
 
@@ -423,21 +470,94 @@ main>:nth-child(6){
     position: relative;
     background: rgba(17, 17, 20, 1);
     top: -154px;
+    height: 900px;
 }
 main>:nth-child(6)>h1{
     position: relative;
+    display: inline-block;
     font-size: 40px;
     color: white;
     top: 28px;
     left: 462px;
 
 }
-main>:nth-child(6)>article>h3{
+main>:nth-child(6)>h3{
     position: relative;
+    display: inline-block;
+    font-size: 40px;
     color: white;
-    top: 0;
-    left: 0;
+    top: 390px;
+    left: 145px;
 }
+
+main>:nth-child(6)>img:nth-child(1){
+    position: relative;
+    top: 275px;
+    left: -79px;
+}
+
+main>:nth-child(6)>img:nth-child(2){
+    position: relative;
+    top: 100px;
+    left: 48px;
+    z-index: 1;
+}
+
+main>:nth-child(6)>aside>div>p{
+    position: relative;
+    background: #32272766;
+    color: white;
+    width: 365px;
+    height: 455px;
+    top: -238px;
+    left:  570px;
+    font-size: 23px;
+    border-radius: 30px;
+}
+main>:nth-child(6)>img:nth-child(3){
+    position: relative;
+    top: 274px;
+    left: -79px;
+}
+main>:nth-child(6)>:nth-child(4){
+    position: relative;
+    top: 462px;
+    left: -348px;
+}
+main>:nth-child(6)>:nth-child(6){
+    position: relative;
+    top: 355px;
+    left: 595px;
+}
+main>:nth-child(6)>:nth-child(8){
+    position: relative;
+    top: 420px;
+    left: 429px;
+}
+
+main>:nth-child(6)>:nth-child(7){
+    position: relative;
+    top: 349px;
+    left: 606px;
+}
+
+main>:nth-child(6)>:nth-child(9){
+    position: relative;
+    top: 415px;
+    left: 438px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -447,17 +567,67 @@ main>:nth-child(6)>article>h3{
 
 main>:nth-child(7){
     position: relative;
-    background: rgba(17, 17, 20, 1);
-    top:-172px;
+    background: #111114;
+    top:-185px;
+    width: 98vw;
+    height: 99vh;
 }
 main>:nth-child(7)>h1{
     position: relative;
+    display: inline-block;
     font-size: 40px;
     color: white;
     top: 28px;
     left: 462px;
 
 }
+main>:nth-child(7)>article>img:nth-child(1){
+    position: relative;
+    left: 128px;
+    top: 213px;
+}
+main>:nth-child(7)>article>img:nth-child(2){
+    position: relative;
+    left: 264px;
+    top: 253px;
+}
+main>:nth-child(7)>article>img:nth-child(3){
+    position: relative;
+    left: 402px;
+    top: 89px;
+}
+main>:nth-child(7)>article>h3:nth-child(4) {
+    position: relative;
+    display: inline-block;
+    left: 170px;
+    top: 153px;
+}
+main>:nth-child(7)>article>h3:nth-child(5) {
+    position: relative;
+    display: inline-block;
+    left: 505px;
+    top: -68px;
+}
+main>:nth-child(7)>article>h3:nth-child(6) {
+    position: relative;
+    display: inline-block;
+    left: 844px;
+    top: -232px;
+}
+main>:nth-child(7)>article>img:nth-child(7){
+    position: relative;
+    width: 254px;
+    height:281px;
+    left: 823px;
+    top: -143px;
+}
+main>:nth-child(7)>article>img:nth-child(8){
+    position: relative;
+    width: 254px;
+    height:281px;
+    left: -134px;
+    top: -368px;
+}
 
 
 
@@ -473,16 +643,19 @@ main>:nth-child(7)>h1{
 
 
 
-/*       contact me                    */
+
+  /*       contact me         */
 
 
 footer>section{
     position: relative;
     background: #111114;
-    top:0;
+    top:-226px;
+    height: 700px;
 }
 footer>:nth-child(8)>h1{
     position: relative;
+    display: inline-block;
     font-size: 40px;
     color: white;
     top: 28px;
