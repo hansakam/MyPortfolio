@@ -17,14 +17,14 @@ header{
 
 header>nav>menu>li{
     display: inline-block;
-    margin: 18px;
+    margin: 27px;
     position: relative;
-    left:  154px;
+    left:  302px;
 }
 main>:nth-child(1){
     position: relative;
     display: inline-block;
-    color: red;
+    color: white;
     font-size: 30px;
     font-family: "Arial Black";
 }
@@ -35,7 +35,7 @@ main>section>:nth-child(4)>h1{
     display: inline-block;
     color: white;
     font-size: 20px;
-    bottom: 73px;
+    bottom: -59px;
     left: 5vw;
 
 }
@@ -44,8 +44,8 @@ main>section>:nth-child(3)>h1{
     display: inline-block;
     color: white;
     font-size: 20px;
-    bottom: 116px;
-    left: 20px;
+    bottom: -7px;
+    left: 168px;
     z-index: 1;
 }
 
@@ -59,8 +59,8 @@ main>section:nth-child(1){
 }
 main>section:nth-child(1)>img{
     position: relative;
-    left: 635px;
-    bottom: -58px;
+    left: 867px;
+    bottom: -203px;
 
 }
 #propic{
@@ -98,7 +98,18 @@ main>section:nth-child(2){
     background: #111114;
     width: 98.5vw;
     height: 171vh;
-    top: -38px;
+    top:  2px;
+
+}
+/* create new  div  */
+main>:nth-child(2)>:nth-child(7){
+    position: absolute;
+    height: 778px;
+    width: 358px;
+    left: 435px;
+    top: 152px;
+    border-radius: 30px;
+    background: #AAAAAA29;
 
 }
 
@@ -112,15 +123,14 @@ main>:nth-child(2)>h1{
 }
 #rectangle{
 
-    position: relative;
-    display: inline-block;
-    font-size: 26px;
+    position:  relative;
+    display:  inline-block;
+    font-size: 23px;
     color: white;
-    background:rgba(50, 39, 39, 0.4);
     border-radius: 48px;
     width: 271px;
     height: 599px;
-    left: 303px;
+    left: 362px;
     border-radius: 48px;
     top: 82px;
 }
@@ -130,7 +140,7 @@ main>section:nth-child(2)>article>p:nth-child(1){
     display: inline-block;
     font-size: 12px;
     color: white;
-    left: 574px;
+    left: 616px;
     top: -482px;
 }
 main>section:nth-child(2)>article>p:nth-child(2){
@@ -138,7 +148,7 @@ main>section:nth-child(2)>article>p:nth-child(2){
     display: inline-block;
     font-size: 20px;
     color: white;
-    left: 592px;
+    left: 621px;
     top: -481px;
 }
 /*      email and contact  */
@@ -149,31 +159,31 @@ main>section:nth-child(2)>article>p:nth-child(4){
     font-size: 20px;
     color: white;
     left: -365px;
-    top: 172px;
+    top: 256px;
 }
 main>section:nth-child(2)>article>p:nth-child(5){
     position: relative;
     display: inline-block;
     font-size: 20px;
     color: white;
-    left: -142px;
-    top: 172px;
+    left: -101px;
+    top: 256px;
 }
 #st{
     position: relative;
-    left: 744px;
+    left: 870px;
     bottom: 229px;
     border-radius: 30px;
 }
 #ss{
     position: relative;
     right: 217px;
-    top: -629px;
+    top: -562px;
     border-radius: 30px;
 }
 #flag{
     position: relative;
-    left: 183px;
+    left: 407px;
     top: -809px;
 }
 
@@ -190,7 +200,7 @@ main>section:nth-child(2)>article>p:nth-child(5){
 main>section:nth-child(3){
     position: relative;
     background: rgba(17, 17, 20, 1);
-    top: -35px;
+    top: 5px;
     width: 98.5vw;
     height: 151vh;
 );
@@ -201,7 +211,7 @@ main>:nth-child(3)>h1{
     display: inline-block;
     color: white;
     font-size: 45px;
-    left: 383px;
+    left: 588px;
     top: -19px;
 }
 main:nth-child(3)>aside>div{
@@ -337,16 +347,16 @@ main>section:nth-child(3)>aside>section:nth-child(3)>div:nth-child(4){
 main>section:nth-child(4){
     background: rgba(17, 17, 20, 1);
     position: relative;
-    top: -32px;
+    top: 8px;
     width: 98.5vw;
-    height: 343vh;
+    height: 282vh;
 }
 main>:nth-child(4)>h1{
     position: relative;
     display: inline-block;
     color: white;
     font-size: 45px;
-    left: 425px;
+    left: 588px;
     top: 16px;
 }
 
@@ -428,74 +438,74 @@ main>:nth-child(4)>:nth-child(3)>h1{
     color: white;
     font-size: 25px;
     top: 0;
-    left: 314px;
+    left: 588px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(1){
     position: relative;
-    left: 404px;
-    top: 190px;
+    left: 449px;
+    top: 191px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(2){
     position: relative;
-    left: 181px;
+    left: 206px;
     top: 79px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(3){
     position: relative;
-    left: 276px;
-    top: 70px;
+    left: 374px;
+    top: 76px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(4){
     position: relative;
-    left: 505px;
+    left: 780px;
     top: 76px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(5){
     position: relative;
-    left: -13px;
+    left: 8px;
     top: 192px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(6){
     position: relative;
-    left:-18px;
-    top: 305px;
+    left: -57px;
+    top: 311px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(7){
     position: relative;
-    left: 87px;
-    top: 302px;
+    left: 64px;
+    top: 311px;
     border-radius: 20px;
 
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(8){
     position: relative;
-    left: 247px;
-    top: 190px;
+    left: 412px;
+    top: 185px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(9){
     position: relative;
-    left: 48px;
-    top: 77px;
+    left: 216px;
+    top: 76px;
     border-radius: 20px;
 
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(10){
     position: relative;
-    left: -16px;
+    left: 92px;
     top: 190px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(3)>article>img:nth-child(11){
     position: relative;
     left: -16px;
-    top: 300px;
+    top: 311px;
     border-radius: 20px;
 }
 main>:nth-child(4)>:nth-child(4)>h1{
@@ -503,22 +513,22 @@ main>:nth-child(4)>:nth-child(4)>h1{
     color: white;
     font-size: 25px;
     top: 355px;
-    left: 386px;
+    left: 588px;
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(2){
     position: relative;
-    left: -184px;
+    left: -9px;
     top: 402px;
 
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(3){
     position: relative;
-    left: -57px;
-    top: 529px;
+    left: 120px;
+    top: 587px;
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(1){
     position: relative;
-    left: 662px;
+    left: 887px;
     top: 402px;
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(4){
@@ -526,7 +536,7 @@ main>:nth-child(4)>:nth-child(4)>article>:nth-child(4){
     display: inline-block;
     color: white;
     font-size: 18px;
-    left: -553px;
+    left: -386px;
     top: 398px;
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(5){
@@ -534,8 +544,8 @@ main>:nth-child(4)>:nth-child(4)>article>:nth-child(5){
     display: inline-block;
     color: white;
     font-size: 18px;
-    left: -367px;
-    top: 525px;
+    left: -198px;
+    top: 584px;
 
 }
 main>:nth-child(4)>:nth-child(4)>article>:nth-child(6){
@@ -543,7 +553,7 @@ main>:nth-child(4)>:nth-child(4)>article>:nth-child(6){
     display: inline-block;
     color: white;
     font-size: 18px;
-    left: -200px;
+    left: 14px;
     top: 400px;
 }
 
@@ -560,8 +570,8 @@ main>:nth-child(4)>:nth-child(4)>article>:nth-child(6){
 main>section:nth-child(5){
     position: relative;
     background: rgba(17, 17, 20, 1);
-    top: -29px;
-    height: 120vh;
+    top:  9px;
+    height: 105vh;
     width: 98.5vw;
 }
 
@@ -606,18 +616,26 @@ main>:nth-child(6){
     background: url("assest/img/project.png");
     background-size: cover;
     background-position: center;
-    top: -26px;
-    height: 219vh;
+    top: 10px;
+    height: 198vh;
     width: 98.5vw;
 }
-
+.adddiv{
+position: absolute;
+height: 660px;
+width: 549px;
+left: 607px;
+top: 211px;
+border-radius: 30px;
+background: #AAAAAA29;
+}
 main>:nth-child(6)>h1{
     position: relative;
     display: inline-block;
     font-size: 40px;
     color: white;
     top: -131px;
-    left: 462px;
+    left: 588px;
 
 }
 main>:nth-child(6)>h3{
@@ -626,7 +644,7 @@ main>:nth-child(6)>h3{
     font-size: 40px;
     color: white;
     top: 746px;
-    left: -551px;
+    left: -890px;
 }
 
 main>:nth-child(6)>img:nth-child(1){
@@ -639,60 +657,63 @@ main>:nth-child(6)>img:nth-child(2){
     position: relative;
     top: 278px;
     left: -68px;
+    width: 387px;
+    height: 265px;
     z-index: 1;
 }
 
 main>:nth-child(6)>aside>div>p{
     position: relative;
     display: inline-block;
-    background: #32272766;
     color: white;
-    width: 217px;
-    height: 369px;
+    width: 456px;
+    height: 500px;
     top: -12px;
-    left:  465px;
-    font-size: 17px;
+    left:  660px;
+    font-size: 23px;
     border-radius: 30px;
 }
 main>:nth-child(6)>img:nth-child(3){
     position: relative;
     top: 454px;
-    left: -230px;
+    left: -346px;
+    width: 387px;
+    height: 265px;
 }
 main>:nth-child(6)>:nth-child(4){
     position: relative;
     top: 743px;
-    left: -531px;
+    left: -880px;
 }
 main>:nth-child(6)>:nth-child(6){
     position: relative;
-    top: 710px;
-    left: -302px;
+    top: 714px;
+    left: -374px;
 }
 main>:nth-child(6)>:nth-child(8){
     position: relative;
-    top: 645px;
-    left: -467px;
+    top: 710px;
+    left: 695px;
 }
 
 main>:nth-child(6)>:nth-child(7){
     position: relative;
     display: inline-block;
-    top: 717px;
-    left: -303px;
+    top: 714px;
+    left: -370px;
 }
 
 main>:nth-child(6)>:nth-child(7){
     position: relative;
     display: inline-block;
-    top: 642px;
-    left: -280px;
+    top: 704px;
+    left: 868px;
 }
 main>:nth-child(6)>:nth-child(9){
     position: relative;
     display: inline-block;
     top: 642px;
-    left: 575px;
+    left: 704px;
 }
 
 
@@ -718,8 +739,8 @@ main>:nth-child(6)>:nth-child(9){
 main>:nth-child(7){
     position: relative;
     background: #111114;
-    top: -25px;
-    height: 150vh;
+    top: 11px;
+    height: 128vh;
     width: 98.5vw;
 }
 main>:nth-child(7)>h1{
@@ -734,46 +755,47 @@ main>:nth-child(7)>h1{
 main>:nth-child(7)>article>img:nth-child(1){
     position: relative;
     left: 86px;
-    top: 163px;
+    top: 82px;
     z-index: 1;
 }
 main>:nth-child(7)>article>img:nth-child(2){
     position: relative;
-    left: 197px;
-    top: 242px;
+    left: 297px;
+    top: 159px;
 }
 main>:nth-child(7)>article>img:nth-child(3){
     position: relative;
-    left: 256px;
-    top: 128px;
+    left: 521px;
+    top: 3px;
 }
 main>:nth-child(7)>article>h3:nth-child(4) {
     position: relative;
     display: inline-block;
     left: -482px;
-    top: 183px;
+    top: 111px;
     color: white;
+    z-index: 1;
 }
 main>:nth-child(7)>article>h3:nth-child(5) {
     position: relative;
     display: inline-block;
-    left: -293px;
-    top: 273px;
+    left: -192px;
+    top: 191px;
     color: white;
 }
 main>:nth-child(7)>article>h3:nth-child(6) {
     position: relative;
     display: inline-block;
-    left: -146px;
-    top: 164px;
+    left: 115px;
+    top: 37px;
     color: white;
 }
 main>:nth-child(7)>article>img:nth-child(7){
     position: relative;
     width: 254px;
-    height:281px;
-    left: 538px;
-    top: 166px;
+    height: 341px;
+    left: 116px;
+    top: 422px;
 }
 main>:nth-child(7)>article>img:nth-child(8){
     position: relative;
@@ -804,8 +826,8 @@ main>:nth-child(7)>article>img:nth-child(8){
 footer{
     position: relative;
     background: #111114;
-    top: -44px;
-    height: 155vh;
+    top: -9px;
+    height: 110vh;
     width: 98.5vw;
 }
 footer>:nth-child(1)>h1>:nth-child(1){
@@ -814,7 +836,7 @@ footer>:nth-child(1)>h1>:nth-child(1){
     font-size: 40px;
     color: white;
     top: 28px;
-    left: 462px;
+    left: 588px;
 }
 /*           say hii!    */
 
@@ -831,8 +853,8 @@ footer>:nth-child(1)>h1:nth-child(2){
 
 #footerpic{
     position: relative;
-    left: 669px;
-    top: 198px;
+    left: 1026px;
+    top: 64px;
     width: 200px;
     height: 200px;
 }
@@ -843,10 +865,10 @@ footer>:nth-child(1)>:nth-child(3)>aside>:nth-child(1){
     display: inline-block;
     border-radius: 30px;
     color: white;
-    left: 545px;
+    left: 715px;
     top:  117px;
-    width: 289px;
-    height: 140px;
+    width: 322px;
+    height: 159px;
 }
 footer>:nth-child(1)>:nth-child(3)>aside>:nth-child(2){
     position: relative;
@@ -877,7 +899,7 @@ footer>:nth-child(1)>:nth-child(3)>aside>:nth-child(3){
     display: inline-block;
     border-radius: 30px;
     color: white;
-    left: 630px;
+    left: 935px;
     top: 163px;
     width: 115px;
     height: 40px;
@@ -889,23 +911,23 @@ footer>:nth-child(1)>:nth-child(3)>aside>:nth-child(3){
 
 #giticon{
     position: relative;
-    left: -10px;
-    top: 194px;
+    left: -143px;
+    top: 57px;
 }
 #facicon{
     position: relative;
-    left: 152px;
-    top: 194px;
+    left: 421px;
+    top: 57px;
 }
 #linkicon{
     position: relative;
-    left: 91px;
-    top: 194px;
+    left: 195px;
+    top: 57px;
 }
 #twiter{
     position: relative;
     left: 33px;
-    top: 194px;
+    top: 57px;
 }
 
 footer>section>:nth-child(5)>:nth-child(1){
@@ -913,8 +935,8 @@ footer>section>:nth-child(5)>:nth-child(1){
     display: inline-block;
     font-size: 18px;
     color: white;
-    left: 31px;
-    top: -7px;
+    left: 76px;
+    top: -123px;
 
 }
 footer>section>:nth-child(5)>:nth-child(3){
@@ -922,8 +944,8 @@ footer>section>:nth-child(5)>:nth-child(3){
     display: inline-block;
     font-size: 18px;
     color: white;
-    left: 27px;
-    top: 20px;
+    left: 76px;
+    top: -112px;
 
 }
 footer>section>:nth-child(5)>:nth-child(2)>a{
@@ -932,8 +954,8 @@ footer>section>:nth-child(5)>:nth-child(2)>a{
     text-decoration: none;
     font-size: 18px;
     color: white;
-    left: 104px;
-    top: -26px;
+    left: 171px;
+    top: -144px;
 
 }
 footer>section>:nth-child(5)>:nth-child(4)>a{
@@ -942,8 +964,8 @@ footer>section>:nth-child(5)>:nth-child(4)>a{
     text-decoration: none;
     font-size: 18px;
     color: white;
-    left: 96px;
-    top: -3px;
+    left: 157px;
+    top: -131px;
 
 }
 
