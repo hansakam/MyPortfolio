@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order</title>
+  <link rel="stylesheet" href="CSS/css/bootstrap.css">
+  <link rel="stylesheet" href="assests/pos-style/pos.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assests/img/logo.jpg" alt="">
+        Ranasinghe<span>Items</span> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+
+            </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Customer.html">Customer</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Items.html">Item</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Order.html">Order</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Placeoder.html">Order details</a>
+          </li>
+
+        </ul>
+
+        <form class="log" role="search">
+          <button class="btn_outline_log" type="button">Login</button>
+          <button class="btn_outline_logout" type="button">Logout</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div  class="mt-5">
+
+  <form>
+    <div class="mb-3" >
+      <label for="cusID" class="form-label">Order ID</label>
+      <input type="text" class="form-control" id="cusID">
+    </div>
+    <div class="mb-3">
+      <label for="cusName" class="form-label">Order Name</label>
+      <input type="text" class="form-control" id="cusName">
+    </div>
+    <div class="mb-3">
+      <label for="cusAddress" class="form-label">Order QTY</label>
+      <input type="text" class="form-control" id="cusAddress">
+    </div>
+
+    <button type="button" class="btn btn-primary">Save Order</button>
+    <button type="button" class="btn btn-danger">Unregister</button>
+    <button type="button" class="btn btn-warning">Update</button>
+    <button type="button" class="btn btn-success">Get All</button>
+  </form>
+</div>
+<table class="mt-5 table table-hover table-bordered">
+  <thead>
+  <tr>
+    <th>Order ID</th>
+    <th>Order Name</th>
+    <th>Order QTY</th>
+    <th>Edit</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>O001</td>
+    <td>Mouse</td>
+    <td>5</td>
+    <td>
+      <button class="btn btn-danger">Edit</button>
+    </td>
+  </tr>
+  <tr>
+    <td>O002</td>
+    <td>Key board</td>
+    <td>2</td>
+    <td>
+      <button class="btn btn-danger">Edit</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<script src="CSS/js/bootstrap.js"></script>
+</body>
+</html>
