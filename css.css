@@ -924,7 +924,7 @@ footer>:nth-child(1)>h1:nth-child(2){
     top: 57px;
 }
 
-#{
+/*#contat{
     position: relative;
     display: inline-block;
     font-size: 18px;
@@ -932,6 +932,14 @@ footer>:nth-child(1)>h1:nth-child(2){
     left: 76px;
     top: -123px;
 
+}*/
+#contacthead{
+    position: absolute;
+    display: inline-block;
+    top: 407px;
+    left: 76px;
+    font-size: 18px;
+    color: white;
 }
 footer>section>:nth-child(5)>:nth-child(3){
     position: relative;
