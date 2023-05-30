@@ -515,17 +515,19 @@
 
     item_t_body.appendChild(t_row);
 
+  });
+
     /*------------------Data input------------------------*/
 
     /*---Order-----*/
 
-    document.getElementById("saveitem").addEventListener("click",function () {
-      let item_id = document.getElementById("Item_ID").value;
-      let item_name = document.getElementById("Item_Name").value;
-      let item_address = document.getElementById("Item_Address").value;
+    document.getElementById("save_order").addEventListener("click",function () {
+      let order_id = document.getElementById("orderID").value;
+      let order_name = document.getElementById("orderName").value;
+      let order_address = document.getElementById("orderAddress").value;
 
 
-      let item_t_body = document.getElementById("item_tbody");
+      let item_t_body = document.getElementById("Order_tbody");
 
       let t_row = document.createElement("tr");
 
@@ -534,9 +536,9 @@
       let col3 = document.createElement("td");
 
 
-      col1.textContent=item_id;
-      col2.textContent=item_name;
-      col3.textContent=item_address;
+      col1.textContent=order_id;
+      col2.textContent=order_name;
+      col3.textContent=order_address;
 
       t_row.appendChild(col1);
       t_row.appendChild(col2);
