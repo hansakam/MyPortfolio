@@ -12,10 +12,11 @@
       background-color: gray;
       height: 100vh;
     }
-    body>section>h1{
+    body>h1{
       position: absolute;
       top: 100px;
       left: 550px;
+      z-index: 1;
     }
     #line1{
       position: absolute;
@@ -24,20 +25,22 @@
       top: 300px;
       left: 285px;
       background-color: #eeeeee;
+      z-index: 1;
     }
     #line2{
       position: absolute;
       width: 700px;
       height: 2px;
-      top: 400px;
+      top: 410px;
       left: 285px;
       background-color: #eeeeee;
+      z-index: 1;
     }
     #box1{
       position: relative;
       width: 80px;
       height: 80px;
-      background-color: lightpink;
+      background-color: #0a53be;
       top: 207px;
       left: 300px;
     }
@@ -45,7 +48,7 @@
       position: relative;
       width: 80px;
       height: 80px;
-      background-color: pink;
+      background-color: #0a53be;
       top: 231px;
       left: 410px;
     }
@@ -53,7 +56,7 @@
       position: relative;
       width: 80px;
       height: 80px;
-      background-color: red;
+      background-color: #0a53be;
       top: 152px;
       left: 528px;
     }
@@ -61,7 +64,7 @@
       position: relative;
       width: 80px;
       height: 80px;
-      background-color: green;
+      background-color: #0a53be;
       top: 73px;
       left: 647px;
     }
@@ -77,18 +80,17 @@
       position: relative;
       width: 80px;
       height: 80px;
-      background-color: yellow;
       left: 905px;
       top: 10px;
     }
   </style>
 </head>
 <body>
-<section>
-  <h1>Javascript Ques</h1>
+<h1>Javascript Ques</h1>
 
-  <div id="line1"></div>
-  <div id="line2"></div>
+<div id="line1"></div>
+<div id="line2"></div>
+<section>
   <div id="box1"></div>
   <div id="box2"></div>
   <div id="box3"></div>
@@ -96,5 +98,30 @@
   <div id="box5"></div>
   <div id="box6"></div>
 </section>
+
+<script>
+  let colors = ["red","yellow","green","blue","deeppink","orange"];
+
+  setInterval(function (){
+    let divArray = document.querySelector("section").children;
+
+    for (let i = 0; i < divArray.length; i++) {
+      divArray[i].style.background = colors[i];
+    }
+    let no=colors.pop();
+    colors.unshift(no);
+  },400);
+
+
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
