@@ -1,102 +1,114 @@
-/main/
+@media screen  and (max-width: 1024px) {
 
-main>section:nth-child(1)>div>img {
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-main>section:nth-child(1)>div>aside:nth-child(3)>h1{
-    left: 33px;
-    bottom: -50px;
+    header>nav{
+        display: none;
+    }
 }
 
-/*main>section:nth-child(1)>div{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
+@media screen  and (max-width: 768px) {
 
-main>section:nth-child(5)>article{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 100px;
-    top: 40vh;
+    /*header*/
+
+
+    /*main*/
+
+    main>section:nth-child(1)>div>img {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    main>section:nth-child(1)>div>aside:nth-child(3)>h1{
+        left: 33px;
+        bottom: -50px;
+    }
+
+    /*main>section:nth-child(1)>div{*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*}*/
+
+    main>section:nth-child(5)>article{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 100px;
+        top: 40vh;
+    }
+
+    /*  servase */
+
+    main>section:nth-child(6){
+        height: revert;
+    }
+
+    /* secitificate */
+
+
+    main>section:nth-child(7){
+        height: revert;
+        top: 88px;
+        position: relative;
+    }
+
+
+    main>section:nth-child(7)>h1 {
+        top: 20px;
+        position: relative;
+    }
+
+
+    /*main>section:nth-child(1){*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*}*/
+
+    /* project */
+
+    main>section:nth-child(8)>div>div>img:nth-child(1){
+        width: 300px;
+        height: 200px;
+    }
+
+    main>section:nth-child(8)>div>div>img:nth-child(2){
+        width: 300px;
+        height: 200px;
+    }
+
+    main>section:nth-child(4)>article>aside>div:nth-child(1)>h2 {
+        display: none;
+    }
+
+    main>section:nth-child(4)>article>aside>div:nth-child(2)>img{
+        left: -64px;
+    }
+
+
+    main>section:nth-child(4)>article>aside:nth-child(1)>div:nth-child(2)>img {
+        left: -64px;
+    }
+
+    main>section:nth-child(4)>article>aside>div:nth-child(2)>h2{
+        left: 40px;
+    }
+
+    #institute{
+        left: 44px;
+    }
+    main>section:nth-child(4)>article>aside>div:nth-child(2){
+        width: 150px;
+        height: 70px;
+    }
+
+
 }
-
-/*  servase */
-
-main>section:nth-child(6){
-    height: revert;
-}
-
-/* secitificate */
-
-
-main>section:nth-child(7){
-    height: revert;
-    top: 88px;
-    position: relative;
-}
-
-
-main>section:nth-child(7)>h1 {
-    top: 20px;
-    position: relative;
-}
-
-
-/*main>section:nth-child(1){*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
-
-/* project */
-
-main>section:nth-child(8)>div>div>img:nth-child(1){
-    width: 300px;
-    height: 200px;
-}
-
-main>section:nth-child(8)>div>div>img:nth-child(2){
-    width: 300px;
-    height: 200px;
-}
-
-main>section:nth-child(4)>article>aside>div:nth-child(1)>h2 {
-    display: none;
-}
-
-main>section:nth-child(4)>article>aside>div:nth-child(2)>img{
-    left: -64px;
-}
-
-
-main>section:nth-child(4)>article>aside:nth-child(1)>div:nth-child(2)>img {
-    left: -64px;
-}
-
-main>section:nth-child(4)>article>aside>div:nth-child(2)>h2{
-    left: 40px;
-}
-
-#institute{
-    left: 44px;
-}
-main>section:nth-child(4)>article>aside>div:nth-child(2){
-    width: 150px;
-    height: 70px;
-}
-
-
-
 
 @media screen  and (max-width: 475px) {
 
 
-    /main/
+    /*main*/
 
 
     main>section:nth-child(1) {
@@ -112,7 +124,7 @@ main>section:nth-child(4)>article>aside>div:nth-child(2){
 
 
 
-    /cetificate/
+    /*cetificate*/
 
     main>:nth-child(5)>article{
         flex-direction: column;
@@ -123,7 +135,7 @@ main>section:nth-child(4)>article>aside>div:nth-child(2){
         height: 145vh;
     }
 
-    /skills/
+    /*skills*/
 
     main>section:nth-child(5)>article {
 
@@ -136,7 +148,7 @@ main>section:nth-child(4)>article>aside>div:nth-child(2){
     /*               Assignments                    */
 
     main>section:nth-child(9)>div:nth-child(2){
-        right:70px;
-        }
+        right: 70px;
+    }
 
 }
