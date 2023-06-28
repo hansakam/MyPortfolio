@@ -20,7 +20,8 @@ GitHub Pages :https://hansakam.github.io/MyPortfolio/ <br>
 
 Desktop View
 
-![Desktop - 1](https://user-images.githubusercontent.com/101160326/190047547-8df35f03-2431-4e23-b141-0944e95b7daf.png)
+![Desktop - 1]![image](https://github.com/hansakam/MyPortfolio/assets/121780473/7c99af88-81b4-49fe-b413-1bddfa7bd944)
+
 
 Tablet View
 
