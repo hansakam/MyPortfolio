@@ -20,13 +20,14 @@ GitHub Pages :https://hansakam.github.io/MyPortfolio/ <br>
 
 Desktop View
 
-![Desktop - 1]![image](https://github.com/hansakam/MyPortfolio/assets/121780473/7c99af88-81b4-49fe-b413-1bddfa7bd944)
+![Desktop - 1]![image](https://github.com/hansakam/MyPortfolio/assets/121780473/6c3a7246-0d53-4518-8a73-e7a8c934ba03)
 
 
-Tablet View
 
-![iPad mini 8 3 - 1](https://user-images.githubusercontent.com/101160326/190048152-0b4bb418-f612-42b5-b25f-4b0ccbd0ae56.png)
+Desktop View
 
-Mobile View
+![iPad mini 8 3 - 1]![image](https://github.com/hansakam/MyPortfolio/assets/121780473/0e40b29a-db33-45e5-b5d4-35c32303920d)
 
-![iPhone 13 Pro Max - 1](https://user-images.githubusercontent.com/101160326/190048176-1f99002d-c2af-4df9-9166-479b6b014257.png)
+
+
+
